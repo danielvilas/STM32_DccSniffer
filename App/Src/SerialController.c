@@ -6,6 +6,7 @@
  */
 
 #include "SerialController.h"
+#include "DCC_Sniffer.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <usbd_cdc_if.h>
@@ -52,7 +53,7 @@ void __App_SC_task(void *argument) {
 			if ((ulNotifiedValue & SC_CONNECTED) != 0) {
 				HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 0);
 				vTaskDelay(10);
-				usbPrintf("DCC SNIFFER v0.0.0 "__DATE__" "__TIME__"\n");
+				usbPrintf("DCC SNIFFER v"DCC_SNIFFER_VERSION" "__DATE__" "__TIME__"\n");
 			}
 
 			if ((ulNotifiedValue & SC_DISCONNECTED) != 0) {
