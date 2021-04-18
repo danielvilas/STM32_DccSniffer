@@ -1,0 +1,114 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/daniel/Ohs/STM32_DccSniffer/include",
+                "/home/daniel/Ohs/STM32_DccSniffer/src",
+                "/home/daniel/Ohs/STM32_DccSniffer/.pio/libdeps/Stm32f411CEUb/NmraDcc",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/STM32F4xx",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                "/home/daniel/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                "/home/daniel/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/variants/Generic_F411Cx",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/daniel/Ohs/STM32_DccSniffer/include",
+                    "/home/daniel/Ohs/STM32_DccSniffer/src",
+                    "/home/daniel/Ohs/STM32_DccSniffer/.pio/libdeps/Stm32f411CEUb/NmraDcc",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/STM32F4xx",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                    "/home/daniel/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                    "/home/daniel/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/variants/Generic_F411Cx",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                    "/home/daniel/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "STM32F4xx",
+                "STM32F411xE",
+                "STM32F4xx",
+                "ARDUINO=10808",
+                "ARDUINO_ARCH_STM32",
+                "ARDUINO_BLACKPILL_F411CE",
+                "BOARD_NAME=\"BLACKPILL_F411CE\"",
+                "HAL_UART_MODULE_ENABLED",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "compilerPath": "/home/daniel/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mfpu=fpv4-sp-d16",
+                "-mfloat-abi=hard",
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
